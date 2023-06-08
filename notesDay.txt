@@ -1,8 +1,30 @@
 entities
 
-Common entities: node
-useful for: 
-Primary content 
-Dedicates pages that you want to link to
-content that needs to be authored/moderated
+Common entities: 
+    node
+        useful for: 
+        Primary content 
+        Dedicates pages that you want to link to
+        content that needs to be authored/moderated
+
+    taxonomy terms
+        useful for:
+        creating a searc UI with filters
+        related content listings
+        creating thematic landing pages
+
+        *a set of taxonomy terms are VOCABULARY
+
+        - this will have two fields always - title and desription
+
+        terms can be flat or hierachical
+            flat: everything has the same importance
+            hierachical: how is this presented to the user 
+
+    Blocks and paragraphs:
+        useful for:
+        lamding page content
+        flexible page building
+        creating marketing content with media and calls to action
+ 
 
