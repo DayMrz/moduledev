@@ -1,0 +1,8 @@
+entities
+
+Common entities: node
+useful for: 
+Primary content 
+Dedicates pages that you want to link to
+content that needs to be authored/moderated
+
