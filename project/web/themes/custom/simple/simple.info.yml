@@ -1,0 +1,36 @@
+name: simple
+type: theme
+'base theme': olivero
+starterkit: true
+version: VERSION
+libraries:
+  - simple/base
+  - simple/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - simple/user
+  core/drupal.dropbutton:
+    - simple/dropbutton
+  core/drupal.dialog:
+    - simple/dialog
+  file/drupal.file:
+    - simple/file
+  core/drupal.progress:
+    - simple/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.9'
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
